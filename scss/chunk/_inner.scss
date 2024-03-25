@@ -1,0 +1,135 @@
+.inner {
+ 
+  &-moon {
+    background-color : #3f6485;
+   display: flex;
+   
+  }
+
+  &-moon__title {
+    margin: 0;
+   margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 64px;
+    font-family: 'BalsamiqSans-Bold', sans-serif;
+   
+
+  }
+
+  &-moon__img {
+    max-width: 320px;
+   padding-left: 28px;
+  
+  }
+
+  &-moon__description { 
+     padding-top: 285px;
+     padding-left: 360px;
+  }
+
+  &-moon__text {
+    margin: 0;
+    font-family: 'BalsamiqSans', sans-serif;
+     font-weight: 400;
+     font-size: 40px;
+  }
+
+   &-sun {
+      background-color: #3f6485;
+       display: flex;
+     }
+
+     &-sun__title {
+      margin: 0;
+      margin-bottom: 20px;
+      font-weight: 700;
+      font-size: 64px;
+      font-family: 'BalsamiqSans-Bold', sans-serif;
+     }
+
+  
+   &-sun__img {
+       max-width: 320px;
+       padding-right: 28px;
+     }
+  
+    &-sun__description {
+       padding-top: 285px;
+       padding-right: 360px;
+     }
+  
+   &-sun__text {
+     margin: 0;
+      font-weight: 400;
+      font-size: 40px;
+      font-family: 'BalsamiqSans', sans-serif;
+    }
+
+&-mars {
+  background-color: #3f6485;
+  display: flex;
+}
+
+&-mars__title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 700;
+   font-size: 64px;
+  font-family: 'BalsamiqSans-Bold', sans-serif;
+}
+
+&-mars__img {
+  max-width: 320px;
+  padding-left: 28px;
+}
+
+&-mars__description {
+  padding-top: 285px;
+  padding-left: 360px;      
+}
+
+&-mars__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 40px;
+  font-family: 'BalsamiqSans', sans-serif; 
+}
+
+&__planets {
+  padding:0 360px;
+  background-color: #3f6485;
+}
+
+&-planets__description { 
+  display: flex;
+  margin-bottom: 145px;
+
+}
+
+&-planets__list {
+  margin: 0;
+  padding: 0;
+  margin-right: 680px; 
+ font-family: 'BalsamiqSans-Bold', sans-serif;
+ font-weight: 400;
+  font-size: 36px;
+}
+
+&-planets__title {
+  margin: 0;
+  text-align: center;
+  margin-bottom: 100px;
+  font-weight: 700;
+  font-size: 64px;
+ font-family: 'BalsamiqSans-Bold', sans-serif;
+}
+
+&-planets__text{
+  margin: 0;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+    color: #fcad42;
+}
+
+}

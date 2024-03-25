@@ -1,0 +1,17 @@
+$text-color: #fff;
+$color-green:#72a25d;
+$color-peach: #c0955b;
+
+@font-face {
+  font-family:'BalsamiqSans';
+  src: url(/fonts/BalsamiqSans.woff2) format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:'BalsamiqSans-Bold';
+  src: url(/fonts/BalsamiqSans-Bold.woff2) format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}

@@ -1,1 +1,213 @@
-/*# sourceMappingURL=main.css.map */
+@font-face {
+  font-family: "BalsamiqSans";
+  src: url(/fonts/BalsamiqSans.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BalsamiqSans-Bold";
+  src: url(/fonts/BalsamiqSans-Bold.woff2) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  max-width: 1920px;
+  color: #fff;
+}
+
+.section {
+  padding-top: 120px;
+}
+.section--peach-color {
+  background-color: #c0955b;
+}
+.section--blue-color {
+  background-color: #3f6485;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1230px;
+  padding: 0 15px;
+}
+
+.wrap-photos {
+  padding-top: 120px;
+}
+.wrap-photos__title {
+  margin: 0;
+  margin-bottom: 90px;
+  font-family: "BalsamiqSans-Bold", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+}
+.wrap-photos__img {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+.wrap_photos-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 260px;
+}
+
+.hero-land__description {
+  padding-left: 285px;
+  padding-right: 285px;
+  padding-bottom: 250px;
+  background-image: url(/img/land.png);
+  background-repeat: no-repeat;
+  background-size: 650px 220px;
+  background-position: bottom;
+}
+.hero-land__title {
+  margin: 0;
+  font-family: "BalsamiqSans-Bold", sans-serif;
+  margin-bottom: 110px;
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+}
+.hero-land__text {
+  margin: 0;
+  margin-bottom: 190px;
+  font-family: "BalsamiqSans", sans-serif;
+  font-weight: 400;
+  font-size: larger;
+  text-align: center;
+}
+
+.inner-moon {
+  background-color: #3f6485;
+  display: flex;
+}
+.inner-moon__title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 64px;
+  font-family: "BalsamiqSans-Bold", sans-serif;
+}
+.inner-moon__img {
+  max-width: 320px;
+  padding-left: 28px;
+}
+.inner-moon__description {
+  padding-top: 285px;
+  padding-left: 360px;
+}
+.inner-moon__text {
+  margin: 0;
+  font-family: "BalsamiqSans", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+.inner-sun {
+  background-color: #3f6485;
+  display: flex;
+}
+.inner-sun__title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 64px;
+  font-family: "BalsamiqSans-Bold", sans-serif;
+}
+.inner-sun__img {
+  max-width: 320px;
+  padding-right: 28px;
+}
+.inner-sun__description {
+  padding-top: 285px;
+  padding-right: 360px;
+}
+.inner-sun__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 40px;
+  font-family: "BalsamiqSans", sans-serif;
+}
+.inner-mars {
+  background-color: #3f6485;
+  display: flex;
+}
+.inner-mars__title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 64px;
+  font-family: "BalsamiqSans-Bold", sans-serif;
+}
+.inner-mars__img {
+  max-width: 320px;
+  padding-left: 28px;
+}
+.inner-mars__description {
+  padding-top: 285px;
+  padding-left: 360px;
+}
+.inner-mars__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 40px;
+  font-family: "BalsamiqSans", sans-serif;
+}
+.inner__planets {
+  padding: 0 360px;
+  background-color: #3f6485;
+}
+.inner-planets__description {
+  display: flex;
+  margin-bottom: 145px;
+}
+.inner-planets__list {
+  margin: 0;
+  padding: 0;
+  margin-right: 680px;
+  font-family: "BalsamiqSans-Bold", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+}
+.inner-planets__title {
+  margin: 0;
+  text-align: center;
+  margin-bottom: 100px;
+  font-weight: 700;
+  font-size: 64px;
+  font-family: "BalsamiqSans-Bold", sans-serif;
+}
+.inner-planets__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  color: #fcad42;
+}
+
+.header {
+  background-color: #72a25d;
+  max-height: 90px;
+}
+.header-list__item {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.header__link {
+  color: #fff;
+  font-family: "BalsamiqSans-Bold", sans-serif;
+  padding-right: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  list-style-type: none;
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */

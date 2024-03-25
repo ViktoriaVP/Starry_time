@@ -1,0 +1,32 @@
+.hero {
+
+&-land__description {
+  padding-left: 285px;
+  padding-right: 285px;
+  padding-bottom: 250px;
+  background-image: url(/img/land.png);
+  background-repeat: no-repeat;
+  background-size: 650px 220px;
+  background-position: bottom;
+
+}
+
+&-land__title {
+   margin: 0;
+  font-family: 'BalsamiqSans-Bold',sans-serif;
+  margin-bottom: 110px;
+  font-weight: 700; 
+  font-size: 64px;
+  text-align: center;
+}
+
+&-land__text {
+  margin: 0; 
+  margin-bottom: 190px;
+  font-family: 'BalsamiqSans', sans-serif;
+  font-weight: 400;
+  font-size: larger;
+  text-align: center;
+}
+
+}

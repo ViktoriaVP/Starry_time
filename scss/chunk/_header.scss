@@ -1,0 +1,22 @@
+.header {
+  background-color: #72a25d;
+  max-height: 90px;
+
+  &-list__item {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+
+  &__link {
+    color: $text-color;
+    font-family: 'BalsamiqSans-Bold',sans-serif;
+    padding-right: 50px;
+    font-weight: 700;
+     font-size: 36px;
+    list-style-type: none;
+    text-decoration: none;
+  }
+}
